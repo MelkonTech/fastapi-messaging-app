@@ -19,6 +19,10 @@ Create/update .env and set variables
 Run the application::
   $ uvicorn main:app --reload
 
+## Runing with docker
+  $ docker compose build
+  $ docker compose up
+
 
 ## Tests
 Test are run with pytest. If you are not familiar with this package you can get some more info from their website <https://pytest.org/>_.
